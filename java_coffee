@@ -16,6 +16,5 @@ public class Farmerbobi implements ModInitializer {
     public void onInitialize() {
         Registry.register(Registry.ITEM,
                 new Identifier("farmerbobi", "java_coffee"), JAVA_COFFEE);
-       com.besson.tutorialmod.item.ModItemGroup.registerModItemGroup();
     }
 }
