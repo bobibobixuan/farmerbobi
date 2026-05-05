@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_radish_crate" }
+  ],
+  "result": {
+    "item": "bobidelight:bobixuan_radish",
+    "count": 9
+  }
+}

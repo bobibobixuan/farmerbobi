@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "minecraft:honey_bottle"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_cucumber"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_green_onion"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_peking_duck"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

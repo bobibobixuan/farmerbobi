@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_bell_pepper"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_chili_pepper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_big_plate_chicken"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

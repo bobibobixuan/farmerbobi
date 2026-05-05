@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_strawberry" },
+    { "item": "bobidelight:bobixuan_blueberry" },
+    { "item": "bobidelight:bobixuan_pineapple" },
+    { "item": "bobidelight:bobixuan_grape" },
+    { "item": "bobidelight:bobixuan_lemon" },
+    { "item": "minecraft:apple" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_fruit_platter" }
+}

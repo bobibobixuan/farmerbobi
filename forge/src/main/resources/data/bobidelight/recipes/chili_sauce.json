@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_chili_powder" },
+    { "item": "bobidelight:bobixuan_vinegar" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_chili_sauce", "count": 1 }
+}

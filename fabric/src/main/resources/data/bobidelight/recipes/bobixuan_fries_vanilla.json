@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "O"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "O": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_fries",
+    "count": 2
+  }
+}

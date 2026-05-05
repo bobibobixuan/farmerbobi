@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BHB",
+    "TPT",
+    "BCB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "H": {
+      "item": "minecraft:porkchop"
+    },
+    "T": {
+      "item": "minecraft:apple"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "C": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_hamburger",
+    "count": 1
+  }
+}

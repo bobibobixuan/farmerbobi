@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bobidelight:bobixuan_bok_choy_bag"
+        }
+      ],
+      "functions": [
+        { "function": "minecraft:explosion_decay" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "drinks",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_ginger"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_ginger"
+                        },
+                        {
+                            "item":  "minecraft:water_bucket"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_ginger_tea",
+                   "count":  2
+               },
+    "container":  {
+                      "item":  "minecraft:bucket"
+                  },
+    "experience":  1,
+    "cookingtime":  200
+}

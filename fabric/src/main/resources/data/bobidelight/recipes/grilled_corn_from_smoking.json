@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": { "item": "bobidelight:bobixuan_corn" },
+  "result": { "item": "bobidelight:bobixuan_grilled_corn", "count": 1 },
+  "experience": 0.35,
+  "cookingtime": 100
+}

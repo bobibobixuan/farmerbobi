@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bobidelight:block/bobixuan_oyster_mushroom_crop_stage4"
+  }
+}

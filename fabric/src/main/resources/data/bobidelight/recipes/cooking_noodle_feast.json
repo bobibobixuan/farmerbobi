@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_hand_pulled_noodles"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_hand_pulled_noodles"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_hand_pulled_noodles"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_hand_pulled_noodles"
+                        },
+                        {
+                            "item":  "minecraft:beef"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_noodle_feast"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_corn" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_cornmeal", "count": 2 }
+  ]
+}

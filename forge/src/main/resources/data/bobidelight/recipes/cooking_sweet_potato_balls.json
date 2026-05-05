@@ -1,0 +1,24 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_sweet_potato"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sweet_potato"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_peanut_oil"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_sweet_potato_balls",
+                   "count":  2
+               },
+    "experience":  0.35,
+    "cookingtime":  200
+}

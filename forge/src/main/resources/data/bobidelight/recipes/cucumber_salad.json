@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_cucumber" },
+    { "item": "bobidelight:bobixuan_cucumber" },
+    { "item": "bobidelight:bobixuan_garlic_sauce" },
+    { "item": "bobidelight:bobixuan_vinegar" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_cucumber_salad", "count": 1 }
+}

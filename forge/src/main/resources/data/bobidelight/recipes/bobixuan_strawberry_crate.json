@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "bobidelight:bobixuan_strawberry" }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_strawberry_crate"
+  }
+}

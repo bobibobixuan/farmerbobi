@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "farmersdelight:wheat_dough" },
+    { "item": "bobidelight:bobixuan_peanut_butter" },
+    { "item": "minecraft:egg" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_mooncake", "count": 1 }
+}

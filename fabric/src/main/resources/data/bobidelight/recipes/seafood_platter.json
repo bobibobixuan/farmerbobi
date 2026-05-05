@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:cooked_cod" },
+    { "item": "minecraft:cooked_salmon" },
+    { "item": "bobidelight:bobixuan_seaweed" },
+    { "item": "bobidelight:bobixuan_seaweed" },
+    { "item": "bobidelight:bobixuan_lemon" },
+    { "item": "bobidelight:bobixuan_soy_sauce" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_seafood_platter" }
+}

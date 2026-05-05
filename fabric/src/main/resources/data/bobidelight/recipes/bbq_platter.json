@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:cooked_beef" },
+    { "item": "minecraft:cooked_porkchop" },
+    { "item": "minecraft:cooked_chicken" },
+    { "item": "minecraft:cooked_mutton" },
+    { "item": "bobidelight:bobixuan_grilled_corn" },
+    { "item": "bobidelight:bobixuan_bell_pepper" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_bbq_platter" }
+}

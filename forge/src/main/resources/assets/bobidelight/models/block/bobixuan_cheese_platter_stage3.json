@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "bobidelight:block/bobixuan_cheese_platter_bottom",
+    "top": "bobidelight:block/bobixuan_cheese_platter_stage3",
+    "side": "bobidelight:block/bobixuan_cheese_platter_side"
+  }
+}

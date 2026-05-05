@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_garlic" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_garlic_powder", "count": 2 }
+  ]
+}

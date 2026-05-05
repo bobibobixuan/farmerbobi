@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WTW",
+    "TCT",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "T": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_pizza",
+    "count": 1
+  }
+}

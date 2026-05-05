@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "bobidelight",
+	"version": "${version}",
+	"name": "bobiDelight",
+	"description": "波比轩乐事 - 必须与农夫乐事一同运行的食品附属包",
+	"authors": ["Bobixuan"],
+	"license": "CC0-1.0",
+	"icon": "assets/bobidelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["top.bobixuan.bobidelight.BobiDelight"],
+		"client": ["top.bobixuan.bobidelight.BobiDelightClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"farmersdelight": "*"
+	}
+}

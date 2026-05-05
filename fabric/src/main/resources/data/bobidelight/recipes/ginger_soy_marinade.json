@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_ginger" },
+    { "item": "bobidelight:bobixuan_soy_sauce" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_ginger_soy_marinade", "count": 1 }
+}

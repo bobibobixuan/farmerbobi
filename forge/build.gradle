@@ -1,0 +1,103 @@
+import org.gradle.util.GradleVersion
+
+// ForgeGradle 6.x requires Gradle < 9.0
+// Fabric Loom 1.12+ requires Gradle >= 8.14
+// Best: Use Gradle 8.14 to build both modules
+
+buildscript {
+    repositories {
+        maven { url = 'https://bmclapi2.bangbang93.com/maven' }
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle',
+            version: "${forgegradle_version}", changing: true
+    }
+}
+
+if (GradleVersion.current() < GradleVersion.version("9.0")) {
+    apply plugin: 'net.minecraftforge.gradle'
+
+    minecraft {
+        mappings channel: 'official', version: project.minecraft_version
+        copyIdeResources = true
+
+        runs {
+            configureEach {
+                workingDirectory project.file('../run/forge-client')
+
+                property 'forge.logging.console.level', 'debug'
+
+                mods {
+                    bobidelight {
+                        source sourceSets.main
+                    }
+                }
+            }
+
+            client {
+            }
+        }
+    }
+
+    dependencies {
+        minecraft "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
+
+        implementation fg.deobf("curse.maven:farmers-delight-398521:4679315")
+    }
+} else {
+    apply plugin: 'java'
+    logger.warn("Forge module: ForgeGradle requires Gradle < 9.0. Forge build is skipped.")
+    logger.warn("To build Forge, run with Gradle 8.x: gradlew.bat wrapper --gradle-version 8.14")
+}
+
+apply plugin: 'maven-publish'
+
+base {
+    archivesName = "${project.archives_base_name}-forge"
+}
+
+if (GradleVersion.current() < GradleVersion.version("9.0")) {
+    java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+repositories {
+    mavenCentral()
+    maven { name = 'BMCLAPI'; url = "https://bmclapi2.bangbang93.com/maven" }
+    maven { name = 'Modrinth'; url = "https://api.modrinth.com/maven" }
+    maven { name = 'CurseMaven'; url = "https://www.cursemaven.com" }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 17
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title"     : "bobidelight",
+            "Specification-Vendor"    : "Bobixuan",
+            "Specification-Version"   : "1",
+            "Implementation-Title"    : project.name,
+            "Implementation-Version"  : project.jar.archiveVersion,
+            "Implementation-Vendor"   : "Bobixuan"
+        ])
+    }
+}
+
+if (GradleVersion.current() < GradleVersion.version("9.0")) {
+    jar.finalizedBy('reobfJar')
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = base.archivesName.get()
+            artifact jar
+        }
+    }
+    repositories {
+        maven { url "file://${project.projectDir}/mcmodsrepo" }
+    }
+}

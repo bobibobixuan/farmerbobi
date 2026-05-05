@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_sweet_potato_crate" }
+  ],
+  "result": {
+    "item": "bobidelight:bobixuan_sweet_potato",
+    "count": 9
+  }
+}

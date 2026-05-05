@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "LHL",
+    "BTB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "S": {
+      "item": "farmersdelight:cheese_wedge"
+    },
+    "L": {
+      "item": "farmersdelight:lettuce"
+    },
+    "H": {
+      "item": "farmersdelight:ham"
+    },
+    "T": {
+      "item": "farmersdelight:tomato"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_hamburger",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:cod"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "farmersdelight:rice"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_lettuce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_new_year_feast"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

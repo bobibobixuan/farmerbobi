@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_tofu"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_oyster_mushroom"
+                        },
+                        {
+                            "item":  "minecraft:egg"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_vinegar"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_chili_powder"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_hot_sour_soup_pot"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

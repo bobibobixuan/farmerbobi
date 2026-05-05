@@ -1,0 +1,26 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_potstickers"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_potstickers"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_dim_sum_basket"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

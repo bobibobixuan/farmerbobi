@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bobidelight:item/bobixuan_spring_roll_wrapper"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "farmersdelight:rice"
+                        },
+                        {
+                            "item":  "farmersdelight:rice"
+                        },
+                        {
+                            "item":  "minecraft:egg"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_spinach"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_chili_sauce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sesame_oil"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_stone_pot_rice"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

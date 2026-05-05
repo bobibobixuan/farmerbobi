@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:beef"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:chicken"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_lettuce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_chili_sauce"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_hot_pot"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

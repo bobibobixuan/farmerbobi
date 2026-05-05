@@ -1,0 +1,21 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_peanut"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_peanut"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_peanut"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_peanut_oil",
+                   "count":  1
+               },
+    "experience":  0.35,
+    "cookingtime":  200
+}

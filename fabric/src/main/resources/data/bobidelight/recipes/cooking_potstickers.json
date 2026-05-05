@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_dumpling_wrapper"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_dumpling_wrapper"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_green_onion"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sesame_oil"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_potstickers",
+                   "count":  2
+               },
+    "experience":  1,
+    "cookingtime":  200
+}

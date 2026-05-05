@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_chinese_yam_crate" }
+  ],
+  "result": {
+    "item": "bobidelight:bobixuan_chinese_yam",
+    "count": 9
+  }
+}

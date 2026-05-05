@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "servings=3": { "model": "bobidelight:block/bobixuan_hot_pot_stage3" },
+    "servings=2": { "model": "bobidelight:block/bobixuan_hot_pot_stage2" },
+    "servings=1": { "model": "bobidelight:block/bobixuan_hot_pot_stage1" },
+    "servings=0": { "model": "bobidelight:block/bobixuan_hot_pot_stage0" }
+  }
+}

@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "CC0-1.0"
+
+[[mods]]
+modId = "bobidelight"
+version = "${file.jarVersion}"
+displayName = "bobiDelight"
+logoFile = "assets/bobidelight/icon.png"
+description = '''
+波比轩乐事 - 必须与农夫乐事一同运行的食品附属包
+'''
+authors = ["Bobixuan"]
+
+[[dependencies.bobidelight]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.bobidelight]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.bobidelight]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.2,)"
+    ordering = "NONE"
+    side = "BOTH"

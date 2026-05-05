@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_chili_pepper" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_chili_powder", "count": 2 }
+  ]
+}

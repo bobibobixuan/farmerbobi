@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sweet_sour_sauce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_bell_pepper"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_pineapple"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_sweet_sour_pork",
+                   "count":  1
+               },
+    "experience":  1,
+    "cookingtime":  200
+}

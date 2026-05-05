@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "TCT",
+    "WOW"
+  ],
+  "key": {
+    "W": {
+      "item": "farmersdelight:wheat_dough"
+    },
+    "S": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "T": {
+      "item": "farmersdelight:tomato"
+    },
+    "C": {
+      "item": "farmersdelight:cheese_wedge"
+    },
+    "O": {
+      "item": "farmersdelight:onion"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_pizza",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "bobidelight:block/bobixuan_new_year_feast_bottom",
+    "top": "bobidelight:block/bobixuan_new_year_feast_stage1",
+    "side": "bobidelight:block/bobixuan_new_year_feast_side"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "bobidelight:block/bobixuan_wild_cilantro"
+  }
+}

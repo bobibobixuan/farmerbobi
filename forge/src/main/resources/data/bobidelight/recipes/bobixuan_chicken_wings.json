@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "SBS",
+    "WOW"
+  ],
+  "key": {
+    "C": {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "S": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "W": {
+      "item": "farmersdelight:wheat_dough"
+    },
+    "O": {
+      "item": "farmersdelight:onion"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_chicken_wings",
+    "count": 4
+  }
+}

@@ -1,0 +1,74 @@
+plugins {
+    id 'fabric-loom' version "${fabric_loom_version}"
+    id 'maven-publish'
+}
+
+base {
+    archivesName = "${project.archives_base_name}-fabric"
+}
+
+repositories {
+    mavenCentral()
+    maven { name = 'BMCLAPI'; url = "https://bmclapi2.bangbang93.com/maven" }
+    maven { name = 'Shedaniel Maven'; url = "https://maven.shedaniel.me/" }
+    maven { name = "Terraformers"; url = "https://maven.terraformersmc.com/" }
+    maven { name = 'Modrinth'; url = "https://api.modrinth.com/maven" }
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    modImplementation "maven.modrinth:farmers-delight-fabric:1.4.3"
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    runs {
+        client {
+            configName = 'BobiDelight Fabric Client'
+            ideConfigGenerated = true
+            runDir = '../run/fabric-client'
+        }
+    }
+
+    mods {
+        "bobidelight" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": inputs.properties.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 17
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = base.archivesName.get()
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            name = 'fabricLocal'
+            url = uri("${project.projectDir}/mcmodsrepo")
+        }
+    }
+}

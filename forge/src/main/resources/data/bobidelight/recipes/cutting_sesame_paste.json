@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_sesame" },
+    { "item": "bobidelight:bobixuan_sesame_oil" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_sesame_paste", "count": 1 }
+  ]
+}

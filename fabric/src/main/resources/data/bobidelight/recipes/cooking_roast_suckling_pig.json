@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:porkchop"
+                        },
+                        {
+                            "item":  "minecraft:honey_bottle"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_garlic"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_rosemary"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_roast_suckling_pig"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

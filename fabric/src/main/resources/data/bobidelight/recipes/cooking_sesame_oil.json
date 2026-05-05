@@ -1,0 +1,21 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_sesame"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sesame"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_sesame"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_sesame_oil",
+                   "count":  1
+               },
+    "experience":  0.35,
+    "cookingtime":  200
+}

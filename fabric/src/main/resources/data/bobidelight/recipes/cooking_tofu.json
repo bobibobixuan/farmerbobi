@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_soybean"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soybean"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soybean"
+                        },
+                        {
+                            "item":  "minecraft:water_bucket"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_tofu",
+                   "count":  2
+               },
+    "container":  {
+                      "item":  "minecraft:bucket"
+                  },
+    "experience":  0.35,
+    "cookingtime":  200
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "bobidelight:block/bobixuan_stone_pot_rice_bottom",
+    "top": "bobidelight:block/bobixuan_stone_pot_rice_stage0",
+    "side": "bobidelight:block/bobixuan_stone_pot_rice_side"
+  }
+}

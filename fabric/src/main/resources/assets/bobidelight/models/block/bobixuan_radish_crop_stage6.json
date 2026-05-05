@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bobidelight:block/bobixuan_radish_crop_stage6"
+  }
+}

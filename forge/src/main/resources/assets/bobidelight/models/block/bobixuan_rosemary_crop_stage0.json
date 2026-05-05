@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bobidelight:block/bobixuan_rosemary_crop_stage0"
+  }
+}

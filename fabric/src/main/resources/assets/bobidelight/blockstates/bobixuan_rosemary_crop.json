@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage0" },
+    "age=1": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage0" },
+    "age=2": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage0" },
+    "age=3": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage0" },
+    "age=4": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage4" },
+    "age=5": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage5" },
+    "age=6": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage6" },
+    "age=7": { "model": "bobidelight:block/bobixuan_rosemary_crop_stage7" }
+  }
+}

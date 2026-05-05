@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bobidelight:block/bobixuan_mustard_green_crop_stage4"
+  }
+}

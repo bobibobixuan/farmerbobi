@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_peanut" },
+    { "item": "minecraft:sugar" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_peanut_butter", "count": 2 }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_spinach"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_spinach"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_garlic_sauce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_peanut_oil"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_garlic_greens",
+                   "count":  1
+               },
+    "experience":  1,
+    "cookingtime":  200
+}

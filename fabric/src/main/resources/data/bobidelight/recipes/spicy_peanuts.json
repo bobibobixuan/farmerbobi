@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "bobidelight:bobixuan_peanut" },
+  "result": { "item": "bobidelight:bobixuan_spicy_peanuts", "count": 1 },
+  "experience": 0.35,
+  "cookingtime": 200
+}

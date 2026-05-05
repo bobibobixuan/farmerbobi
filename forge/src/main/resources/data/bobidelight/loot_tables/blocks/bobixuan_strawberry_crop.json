@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                { "condition": "minecraft:block_state_property", "block": "bobidelight:bobixuan_strawberry_crop", "properties": { "age": "7" } }
+              ],
+              "name": "bobidelight:bobixuan_strawberry"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "bobidelight:bobixuan_strawberry_seeds"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        { "function": "minecraft:explosion_decay" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            { "function": "minecraft:apply_bonus", "enchantment": "minecraft:fortune", "formula": "minecraft:binomial_with_bonus_count", "parameters": { "extraRounds": 3, "probability": 0.5714286 } }
+          ],
+          "name": "bobidelight:bobixuan_strawberry_seeds"
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:block_state_property", "block": "bobidelight:bobixuan_strawberry_crop", "properties": { "age": "7" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "farmersdelight:cheese_wedge" },
+    { "item": "farmersdelight:cheese_wedge" },
+    { "item": "minecraft:bread" },
+    { "item": "bobidelight:bobixuan_grape" },
+    { "item": "bobidelight:bobixuan_strawberry" },
+    { "item": "bobidelight:bobixuan_peanut" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_cheese_platter" }
+}

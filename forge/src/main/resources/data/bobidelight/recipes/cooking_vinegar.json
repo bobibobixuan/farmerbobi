@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_corn"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_corn"
+                        },
+                        {
+                            "item":  "minecraft:water_bucket"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_vinegar",
+                   "count":  1
+               },
+    "container":  {
+                      "item":  "minecraft:bucket"
+                  },
+    "experience":  0.35,
+    "cookingtime":  400
+}

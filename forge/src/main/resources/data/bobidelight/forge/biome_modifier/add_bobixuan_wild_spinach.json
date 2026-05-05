@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:or",
+    "values": [
+      "#minecraft:is_forest",
+      "#minecraft:is_hill"
+    ]
+  },
+  "features": "bobidelight:bobixuan_wild_spinach_placed",
+  "step": "vegetal_decoration"
+}

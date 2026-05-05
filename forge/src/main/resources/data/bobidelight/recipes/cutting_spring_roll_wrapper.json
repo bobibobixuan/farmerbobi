@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "farmersdelight:wheat_dough" }
+  ],
+  "tool": { "tag": "c:tools/knives" },
+  "result": [
+    { "item": "bobidelight:bobixuan_spring_roll_wrapper", "count": 4 }
+  ]
+}

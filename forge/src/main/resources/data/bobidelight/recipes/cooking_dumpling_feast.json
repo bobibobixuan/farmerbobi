@@ -1,0 +1,29 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "meals",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_dumplings"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soy_sauce"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_vinegar"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_dumpling_feast"
+               },
+    "experience":  1,
+    "cookingtime":  400
+}

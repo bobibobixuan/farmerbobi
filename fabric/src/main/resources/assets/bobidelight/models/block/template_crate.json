@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "farmersdelight:block/potato_crate_top",
+    "side": "farmersdelight:block/potato_crate_side"
+  }
+}

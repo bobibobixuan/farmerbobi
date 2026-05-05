@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "bobidelight:bobixuan_oyster_mushroom" }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_oyster_mushroom_crate"
+  }
+}

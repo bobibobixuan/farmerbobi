@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "OOO"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "O": {
+      "item": "farmersdelight:cooking_oil"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_fries",
+    "count": 4
+  }
+}

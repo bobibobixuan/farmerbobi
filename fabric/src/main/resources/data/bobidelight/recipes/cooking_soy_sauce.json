@@ -1,0 +1,27 @@
+{
+    "type":  "farmersdelight:cooking",
+    "recipe_book_tab":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "bobidelight:bobixuan_soybean"
+                        },
+                        {
+                            "item":  "bobidelight:bobixuan_soybean"
+                        },
+                        {
+                            "item":  "minecraft:water_bucket"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bobidelight:bobixuan_soy_sauce",
+                   "count":  1
+               },
+    "container":  {
+                      "item":  "minecraft:bucket"
+                  },
+    "experience":  0.35,
+    "cookingtime":  400
+}

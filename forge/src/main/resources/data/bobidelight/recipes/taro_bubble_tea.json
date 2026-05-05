@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_taro" },
+    { "item": "bobidelight:bobixuan_taro" },
+    { "item": "farmersdelight:milk_bottle" },
+    { "item": "bobidelight:bobixuan_rock_sugar" }
+  ],
+  "result": { "item": "bobidelight:bobixuan_taro_bubble_tea", "count": 1 }
+}

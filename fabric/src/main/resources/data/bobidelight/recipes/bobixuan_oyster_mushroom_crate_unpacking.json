@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bobidelight:bobixuan_oyster_mushroom_crate" }
+  ],
+  "result": {
+    "item": "bobidelight:bobixuan_oyster_mushroom",
+    "count": 9
+  }
+}

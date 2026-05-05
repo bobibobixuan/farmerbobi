@@ -1,0 +1,35 @@
+allprojects {
+    group = project.maven_group
+    version = project.mod_version
+}
+
+subprojects {
+    tasks.withType(JavaCompile).configureEach {
+        it.options.release = 17
+        it.options.encoding = 'UTF-8'
+    }
+}
+
+tasks.register('runFabricClient') {
+    group = 'fabric'
+    description = 'Runs the Fabric client using the dedicated Fabric runtime directory.'
+    dependsOn(':fabric:runClient')
+}
+
+tasks.register('runForgeClient') {
+    group = 'forge'
+    description = 'Runs the Forge client using the dedicated Forge runtime directory.'
+    dependsOn(':forge:runClient')
+}
+
+tasks.register('publishFabric') {
+    group = 'publishing'
+    description = 'Publishes the Fabric artifacts using the Fabric-only publishing pipeline.'
+    dependsOn(':fabric:publish')
+}
+
+tasks.register('publishForge') {
+    group = 'publishing'
+    description = 'Publishes the Forge artifacts using the Forge-only publishing pipeline.'
+    dependsOn(':forge:publish')
+}

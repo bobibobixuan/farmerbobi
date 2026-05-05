@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "bobidelight:bobixuan_soybean" },
+  "result": { "item": "bobidelight:bobixuan_edamame", "count": 2 },
+  "experience": 0.35,
+  "cookingtime": 200
+}

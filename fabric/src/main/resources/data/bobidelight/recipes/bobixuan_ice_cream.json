@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MIM",
+    "SJS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "M": {
+      "item": "farmersdelight:milk_bottle"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "J": {
+      "item": "farmersdelight:sweet_berry_jam"
+    }
+  },
+  "result": {
+    "item": "bobidelight:bobixuan_ice_cream",
+    "count": 4
+  }
+}
