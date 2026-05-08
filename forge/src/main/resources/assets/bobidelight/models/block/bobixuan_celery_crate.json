@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/crate_bottom",
+                     "top":  "bobidelight:block/bobixuan_celery_crate_top",
+                     "side":  "bobidelight:block/bobixuan_celery_crate_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
+}

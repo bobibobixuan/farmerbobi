@@ -1,5 +1,7 @@
-{
-  "variants": {
-    "": { "model": "bobidelight:block/template_bag" }
-  }
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "bobidelight:block/bobixuan_mint_bag"
+                          }
+                 }
 }

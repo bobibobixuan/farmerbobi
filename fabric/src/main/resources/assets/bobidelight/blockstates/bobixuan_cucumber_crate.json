@@ -1,5 +1,7 @@
-{
-  "variants": {
-    "": { "model": "bobidelight:block/bobixuan_cucumber_crate" }
-  }
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "bobidelight:block/bobixuan_cucumber_crate"
+                          }
+                 }
 }

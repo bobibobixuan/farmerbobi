@@ -1,7 +1,7 @@
-{
-
-  "variants": {
-    "": { "model": "bobidelight:block/bobixuan_shiitake_crate" }
-  }
-
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "bobidelight:block/bobixuan_shiitake_crate"
+                          }
+                 }
 }

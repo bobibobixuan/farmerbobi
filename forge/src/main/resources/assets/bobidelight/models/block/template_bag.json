@@ -1,8 +1,8 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "farmersdelight:block/basket_top",
-    "bottom": "farmersdelight:block/basket_bottom",
-    "side": "farmersdelight:block/basket_side"
-  }
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/template_bag_bottom",
+                     "top":  "bobidelight:block/template_bag_top",
+                     "side":  "bobidelight:block/template_bag_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
 }

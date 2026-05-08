@@ -1,7 +1,7 @@
-{
-
-  "variants": {
-    "": { "model": "bobidelight:block/bobixuan_chinese_yam_crate" }
-  }
-
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "bobidelight:block/bobixuan_chinese_yam_crate"
+                          }
+                 }
 }

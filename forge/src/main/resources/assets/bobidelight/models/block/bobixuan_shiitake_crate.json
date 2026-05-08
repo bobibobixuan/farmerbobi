@@ -1,7 +1,8 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "bobidelight:block/bobixuan_shiitake_crate_top",
-    "side": "bobidelight:block/bobixuan_shiitake_crate_side"
-  }
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/crate_bottom",
+                     "top":  "bobidelight:block/bobixuan_shiitake_crate_top",
+                     "side":  "bobidelight:block/bobixuan_shiitake_crate_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
 }

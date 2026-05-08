@@ -1,7 +1,8 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "farmersdelight:block/potato_crate_top",
-    "side": "farmersdelight:block/potato_crate_side"
-  }
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/crate_bottom",
+                     "top":  "bobidelight:block/template_crate_top",
+                     "side":  "bobidelight:block/template_crate_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
 }

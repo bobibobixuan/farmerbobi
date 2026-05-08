@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/bobixuan_rosemary_bag_bottom",
+                     "top":  "bobidelight:block/bobixuan_rosemary_bag_top",
+                     "side":  "bobidelight:block/bobixuan_rosemary_bag_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
+}

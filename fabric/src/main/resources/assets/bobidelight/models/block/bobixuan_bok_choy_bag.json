@@ -1,8 +1,8 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "bobidelight:block/bobixuan_bok_choy_bag_top",
-    "bottom": "bobidelight:block/bobixuan_bok_choy_bag_bottom",
-    "side": "bobidelight:block/bobixuan_bok_choy_bag_side"
-  }
+﻿{
+    "textures":  {
+                     "bottom":  "bobidelight:block/bobixuan_bok_choy_bag_bottom",
+                     "top":  "bobidelight:block/bobixuan_bok_choy_bag_top",
+                     "side":  "bobidelight:block/bobixuan_bok_choy_bag_side"
+                 },
+    "parent":  "minecraft:block/cube_bottom_top"
 }
