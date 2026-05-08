@@ -8,8 +8,8 @@ base {
 }
 
 repositories {
+    maven { name = 'Aliyun Public'; url = 'https://maven.aliyun.com/repository/public' }
     mavenCentral()
-    maven { name = 'BMCLAPI'; url = "https://bmclapi2.bangbang93.com/maven" }
     maven { name = 'Shedaniel Maven'; url = "https://maven.shedaniel.me/" }
     maven { name = "Terraformers"; url = "https://maven.terraformersmc.com/" }
     maven { name = 'Modrinth'; url = "https://api.modrinth.com/maven" }

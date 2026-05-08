@@ -13,9 +13,6 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import top.bobixuan.bobidelight.item.ModItems;
 
 public class ModWorldGen {
-    private static final TagKey<Biome> OVERWORLD = TagKey.create(
-            Registries.BIOME, new ResourceLocation("minecraft", "is_overworld"));
-
     public static void init() {
         registerWildCrop("corn", BiomeTags.IS_SAVANNA, BiomeTags.IS_FOREST, BiomeTags.IS_HILL);
         registerWildCrop("soybean", BiomeTags.IS_FOREST, BiomeTags.IS_HILL);

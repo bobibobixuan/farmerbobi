@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bobidelight:block/bobixuan_chinese_yam_crate_top",
+    "side": "bobidelight:block/bobixuan_chinese_yam_crate_side"
+  }
+}

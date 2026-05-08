@@ -194,12 +194,12 @@ public class ModBlocks {
     public static final Block BOBIXUAN_HOT_SOUR_SOUP_POT = register("bobixuan_hot_sour_soup_pot",
             new FeastBlock(HOT_POT_FOOD_SERVING, () -> Items.BOWL));
 
-        public static List<Block> getCutoutBlocks() {
-                return BuiltInRegistries.BLOCK.stream()
-                                .filter(block -> MOD_ID.equals(BuiltInRegistries.BLOCK.getKey(block).getNamespace()))
-                                .filter(BushBlock.class::isInstance)
-                                .toList();
-        }
+    public static List<Block> getCutoutBlocks() {
+        return BuiltInRegistries.BLOCK.stream()
+                .filter(block -> MOD_ID.equals(BuiltInRegistries.BLOCK.getKey(block).getNamespace()))
+                .filter(block -> block instanceof BushBlock || block instanceof FeastBlock)
+                .toList();
+    }
 
     private static Block register(String name, Block block) {
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);

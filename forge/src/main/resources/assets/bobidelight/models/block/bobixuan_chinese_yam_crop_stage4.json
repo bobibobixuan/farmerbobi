@@ -1,6 +1,6 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "bobidelight:block/bobixuan_chinese_yam_crop_stage4"
-  }
+{
+  "parent": "bobidelight:block/crop_cross",
+  "textures": {
+    "cross": "bobidelight:block/bobixuan_chinese_yam_crop_stage4"
+  }
 }

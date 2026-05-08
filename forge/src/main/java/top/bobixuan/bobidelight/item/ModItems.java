@@ -488,6 +488,9 @@ public class ModItems {
     public static final Item BOBIXUAN_HOT_SOUR_SOUP_POT = register("bobixuan_hot_sour_soup_pot",
             new BlockItem(ModBlocks.BOBIXUAN_HOT_SOUR_SOUP_POT, new Item.Properties().stacksTo(1)));
 
+        public static void init() {
+        }
+
         public static List<Item> getProduceStorageItems() {
                 return List.of(
                                 BOBIXUAN_CORN_CRATE,

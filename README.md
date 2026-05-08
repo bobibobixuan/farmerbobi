@@ -17,7 +17,7 @@
 
 **Farmer Bobi (bobiDelight / 波比乐事)** is a content-rich add-on mod for [Farmer's Delight](https://modrinth.com/mod/farmers-delight) that introduces a complete farm-to-table Chinese and Asian cuisine system into Minecraft 1.20.1.
 
-Starting from just 5 fast-food items, the mod has grown into a full-featured dual-platform (Fabric & Forge) content pack with **30 plantable crops, 80+ recipes, 20 cooked dishes, 8 drinks, 16 feast blocks**, and more.
+Starting from just 5 fast-food items, the mod has grown into a full-featured dual-platform (Fabric & Forge) content pack with **33 plantable crops, 80+ recipes, 20 cooked dishes, 8 drinks, 15 feast blocks**, and more.
 
 > ⚠️ **Hard Dependency**: Farmer's Delight (Fabric or Forge) must be installed. The mod will not load without it.
 
@@ -26,8 +26,8 @@ Starting from just 5 fast-food items, the mod has grown into a full-featured dua
 ## Features / 特色
 
 ### 🌱 Crops & Farming / 作物与种植
-- **30 growable crops** — corn, soybeans, rice, peanuts, sesame, chili, garlic, ginger, lemons, grapes, strawberries, blueberries, taro, mint, and more
-- **Wild crop generation** — naturally spawning wild variants in various biomes (forests, savannas, jungles, rivers, taiga, beaches, etc.)
+- **33 growable crops** — corn, soybeans, peanuts, sesame, chili peppers, garlic, ginger, cucumber, bok choy, shiitake, chinese yam, and more
+- **Wild crop generation** — 33 matching wild variants naturally spawn in various biomes (forests, savannas, jungles, rivers, taiga, beaches, etc.)
 
 ### 🍳 Cooking & Recipes / 烹饪与配方
 - **80+ recipes** — vanilla crafting, smelting, Farmer's Delight cutting board & cooking pot
@@ -43,7 +43,7 @@ Starting from just 5 fast-food items, the mod has grown into a full-featured dua
 - **8 beverages** — Soy Milk, Lemonade, Grape Juice, Mint Tea, Ginger Tea, Strawberry Smoothie, Blueberry Juice, Taro Bubble Tea
 
 ### 🎉 Feast Blocks / 盛宴方块
-- **16 placeable feast blocks** — Hot Pot, Peking Duck, Dumpling Feast, BBQ Platter, Dim Sum Basket, Seafood Boil, Mooncake Platter, Taro Feast, and more
+- **15 placeable feast blocks** — Hot Pot, Peking Duck, Dumpling Feast, BBQ Platter, Dim Sum Basket, Seafood Platter, Candy Box, Cheese Platter, and more
 - Shareable multi-serving meals right-click to eat, break after last serving
 
 ### 📦 Storage / 存储

@@ -6,8 +6,8 @@ import org.gradle.util.GradleVersion
 
 buildscript {
     repositories {
-        maven { url = 'https://bmclapi2.bangbang93.com/maven' }
         maven { url = 'https://maven.minecraftforge.net' }
+        maven { name = 'Aliyun Public'; url = 'https://maven.aliyun.com/repository/public' }
         mavenCentral()
     }
     dependencies {
@@ -63,10 +63,16 @@ if (GradleVersion.current() < GradleVersion.version("9.0")) {
 }
 
 repositories {
+    maven { name = 'Aliyun Public'; url = 'https://maven.aliyun.com/repository/public' }
     mavenCentral()
-    maven { name = 'BMCLAPI'; url = "https://bmclapi2.bangbang93.com/maven" }
     maven { name = 'Modrinth'; url = "https://api.modrinth.com/maven" }
     maven { name = 'CurseMaven'; url = "https://www.cursemaven.com" }
+}
+
+processResources {
+    filesMatching("META-INF/mods.toml") {
+        expand project.properties
+    }
 }
 
 tasks.withType(JavaCompile).configureEach {

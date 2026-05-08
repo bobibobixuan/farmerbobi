@@ -188,7 +188,7 @@ public class BobiDelightForge {
             modEventBus.addListener(this::onClientSetup);
         }
 
-        ModItems.BOBIXUAN_PIZZA.getClass();
+        ModItems.init();
         ModBlocks.init();
 
         LOGGER.info("Registered BobiDelight content (Forge)");

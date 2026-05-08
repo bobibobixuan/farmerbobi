@@ -18,7 +18,7 @@ public class BobiDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.BOBIXUAN_PIZZA.getClass();
+        ModItems.init();
         ModBlocks.init();
         ModWorldGen.init();
 

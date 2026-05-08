@@ -8,8 +8,8 @@ import top.bobixuan.bobidelight.block.ModBlocks;
 public class BobiDelightClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-    ModBlocks.getCutoutBlocks().forEach(block ->
-        BlockRenderLayerMap.INSTANCE.putBlock(block, RenderType.cutout())
-    );
+        ModBlocks.getCutoutBlocks().forEach(block ->
+                BlockRenderLayerMap.INSTANCE.putBlock(block, RenderType.cutout())
+        );
     }
 }

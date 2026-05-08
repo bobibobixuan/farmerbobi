@@ -4,7 +4,7 @@ license = "CC0-1.0"
 
 [[mods]]
 modId = "bobidelight"
-version = "${file.jarVersion}"
+version = "${mod_version}"
 displayName = "bobiDelight"
 logoFile = "assets/bobidelight/icon.png"
 description = '''
