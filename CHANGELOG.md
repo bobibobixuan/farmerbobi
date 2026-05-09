@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.3 - 材质重制与可摆放食品模型补完
+
+- 重做全套作物生长阶段材质，按真实植物形态拆分为三批生成与裁切，覆盖 Fabric / Forge 两端的 `stage0 / stage4 / stage5 / stage6 / stage7`。
+- 针对黄瓜、茄子、花生、芝麻、绿豆、大豆、草莓重新生成差异化生长材质，减少同质化问题。
+- 修正葡萄与柠檬的生长逻辑：葡萄改为藤架/挂串表现，柠檬改为木质小树开花结果表现，并参考本地 Croptopia 资源结构重新制作。
+- 补完 15 个可摆放食品方块的立体模型，按锅、篮、盒、烤物、盘装食品分类制作多元素 block model。
+- 调整 `FeastBlock` 选择框与碰撞框高度，使其匹配新的低矮食品模型，减少穿模和整格方块观感。
+- 同步修正 Fabric / Forge 两端资源，检查模型 JSON、贴图引用、阶段贴图尺寸和双端哈希一致性。
+- 构建验证：`./gradlew.bat clean build --no-daemon` 通过。
+
 ## 1.4.2 - 同名作物全库复用补完
 
 - 重新扫描整合包 Farmer's Delight 参考库，只保留 produce、seeds、wild crop、crop stage、crate 这五类同名安全资源

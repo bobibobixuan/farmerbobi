@@ -29,7 +29,7 @@ import java.util.function.Supplier;
 
 public class FeastBlock extends Block {
     public static final IntegerProperty SERVINGS = IntegerProperty.create("servings", 0, 3);
-    private static final VoxelShape SHAPE = Block.box(2.0, 0.0, 2.0, 14.0, 8.0, 14.0);
+    private static final VoxelShape SHAPE = Block.box(1.0, 0.0, 1.0, 15.0, 8.0, 15.0);
 
     private final FoodProperties food;
     private final Supplier<? extends Item> containerSupplier;

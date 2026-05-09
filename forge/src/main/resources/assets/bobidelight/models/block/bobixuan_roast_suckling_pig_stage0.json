@@ -1,8 +1,66 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "bottom": "bobidelight:block/bobixuan_roast_suckling_pig_bottom",
     "top": "bobidelight:block/bobixuan_roast_suckling_pig_stage0",
     "side": "bobidelight:block/bobixuan_roast_suckling_pig_side"
-  }
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
 }

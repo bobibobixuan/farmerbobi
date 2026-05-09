@@ -1,5 +1,4 @@
 # gradle
-
 .gradle/
 build/
 **/build/
@@ -8,18 +7,15 @@ classes/
 !gradle/wrapper/gradle-wrapper.jar
 
 # eclipse
-
 *.launch
 
 # idea
-
 .idea/
 *.iml
 *.ipr
 *.iws
 
 # vscode
-
 .settings/
 .vscode/
 bin/
@@ -27,26 +23,34 @@ bin/
 .project
 
 # macos
-
 *.DS_Store
 
 # minecraft runtime
-
 run/
 
-# forge
-
+# maven local repo
 forge/mcmodsrepo/
+fabric/mcmodsrepo/
 
 # temp & logs
 tmp/
 log/
+logs/
+*.log
+logs.html
 
-# art assets
+# art source & exports
 波比乐事材质/
+导出素材/
+
+# design docs & examples
+设计文档/
+PLANT_GENERATION_GUIDE.md
+
+# claude
+.claude/
 
 # java
-
 hs_err_*.log
 replay_*.log
 *.hprof

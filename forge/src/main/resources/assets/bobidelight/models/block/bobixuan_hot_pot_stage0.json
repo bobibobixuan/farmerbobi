@@ -1,8 +1,57 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "bottom": "bobidelight:block/bobixuan_hot_pot_bottom",
     "top": "bobidelight:block/bobixuan_hot_pot_stage0",
     "side": "bobidelight:block/bobixuan_hot_pot_side"
-  }
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 4, 14],
+      "faces": {
+        "down": { "texture": "#bottom", "cullface": "down" },
+        "up": { "texture": "#side", "uv": [2, 2, 14, 14] },
+        "north": { "texture": "#side", "uv": [2, 8, 14, 16] },
+        "south": { "texture": "#side", "uv": [2, 8, 14, 16] },
+        "west": { "texture": "#side", "uv": [2, 8, 14, 16] },
+        "east": { "texture": "#side", "uv": [2, 8, 14, 16] }
+      }
+    },
+    {
+      "from": [3, 4, 3],
+      "to": [13, 6, 13],
+      "faces": {
+        "down": { "texture": "#top", "uv": [3, 3, 13, 13] },
+        "up": { "texture": "#top", "uv": [3, 3, 13, 13] },
+        "north": { "texture": "#side", "uv": [3, 5, 13, 8] },
+        "south": { "texture": "#side", "uv": [3, 5, 13, 8] },
+        "west": { "texture": "#side", "uv": [3, 5, 13, 8] },
+        "east": { "texture": "#side", "uv": [3, 5, 13, 8] }
+      }
+    },
+    {
+      "from": [0, 2, 6],
+      "to": [2, 4, 10],
+      "faces": {
+        "down": { "texture": "#side", "uv": [0, 10, 2, 14] },
+        "up": { "texture": "#side", "uv": [0, 10, 2, 14] },
+        "north": { "texture": "#side", "uv": [0, 10, 2, 14] },
+        "south": { "texture": "#side", "uv": [0, 10, 2, 14] },
+        "west": { "texture": "#side", "uv": [0, 10, 2, 14] },
+        "east": { "texture": "#side", "uv": [0, 10, 2, 14] }
+      }
+    },
+    {
+      "from": [14, 2, 6],
+      "to": [16, 4, 10],
+      "faces": {
+        "down": { "texture": "#side", "uv": [14, 10, 16, 14] },
+        "up": { "texture": "#side", "uv": [14, 10, 16, 14] },
+        "north": { "texture": "#side", "uv": [14, 10, 16, 14] },
+        "south": { "texture": "#side", "uv": [14, 10, 16, 14] },
+        "west": { "texture": "#side", "uv": [14, 10, 16, 14] },
+        "east": { "texture": "#side", "uv": [14, 10, 16, 14] }
+      }
+    }
+  ]
 }
